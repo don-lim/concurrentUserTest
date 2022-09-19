@@ -13,7 +13,7 @@ https://www.guru99.com/jmeter-performance-testing.html
 
 ## How many concurrent users should I test for?
 
-The real issue is not what kind of tools you need to use, but how many concurrent users should I test for and for how long. Answers to these can only come from a real experience. If you have a couple of million registered users for your service, a few hundred concurrent user for a few hours would a normal number for a busy day. This was the case for my booking systems with 7 million registered users.
+The real issue is not what kind of tools you need to use, but how many concurrent users you should test for and for how long. Answers to these can only come from a real experience. If you have a couple of million registered users for your service, a few hundred concurrent user for a few hours would a normal number for a busy day. This was the case for my booking systems with 7 million registered users.
 
 Start with a low number and gradually increase it. You really don't have to test for 10000 concurrent user especially if the system will be on an elastic/scalable server instance. Even with the most sophisticated stress tests, you won't be able to test for the situation when millions of people in the world want to access your system all at once. They all have different environments.
 
